@@ -1,40 +1,101 @@
-# Implementation-of-Honeypot-using-PenTbox-in-Kali-Linux
-                                Information Security IA_1
+Implementation of Honeypot using PenTBox in Kali Linux
+📌 Information Security IA_1
+Group Members:
+Hyder Presswala - 16010122151
+Ronak Rathod - 16010122156
+Vedant Rathi - 16010122154
+📌 Introduction
+Kali Linux
+Kali Linux is a Debian-based Linux distribution designed for penetration testing and digital forensics. It is maintained by Offensive Security and includes over 600 penetration-testing tools, such as:
 
-                                Group members:Hyder Presswala - 16010122151 
-                                              Ronak Rathod-  16010122156
-                                              Vedant Rathi - 16010122154
+Armitage – Cyber attack management tool
+Nmap – Network scanner
+Wireshark – Packet analyzer
+John the Ripper – Password cracker
+SQLMap – SQL injection testing
+Aircrack-ng – Wireless network security tool
+Burp Suite & OWASP ZAP – Web security tools
+Kali Linux was developed by Mati Aharoni and Devon Kearns as a rewrite of BackTrack, a previous Linux distribution used for security testing.
 
-                                              
-Introduction: Kali Linux: A Linux distribution with Debian roots called Kali Linux is made for penetration testing and digital forensics. Offensive Security oversees and provides maintenance for it.Kali Linux offers 600 penetration-testing applications, including Armitage, Nmap, Wireshark, John the Ripper, sqlmap, Aircrack-ing, Burp, and OWASP ZAP. It was created by Offensive Security employees Mati Aharoni and Devon Kearns through the rewriting of BackTrack, a Linux distribution they had previously used for information security testing and which was based on Knoppix. The Hindu deity Kali served as the name's inspiration.
+🛡️ Honeypot
+A honeypot is a decoy system used to attract hackers and study their attack patterns. Organizations use honeypots for cybersecurity research and threat intelligence.
 
-Honeypot: Honeypotss are network-attached systems used by hackers to identify and research tactics and types of attacks. Large businesses and cybersecurity-related organisations are the main users, but crooks may use them to hoodwink researchers and disseminate false information.
+Honeypots help: ✅ Identify attackers' methods
+✅ Monitor unauthorized access attempts
+✅ Reduce the risk of real system breaches
+✅ Improve network security defenses
 
-PenTBox: PenTBox is a security suite that can be used in penetration testing engagements to perform a variety of activities.Specifically these activities include from cracking hashes,DNS enumeration and stress testing to HTTP directory brute force.
+⚡ What is PenTBox?
+PenTBox is an open-source penetration testing toolkit written in Ruby. It includes tools for:
+
+Honeypots 🛡️ (Detect unauthorized access attempts)
+Hash Cracking 🔓 (Break MD5, SHA1, etc.)
+DNS Enumeration 🌎 (Gather domain information)
+Stress Testing 💥 (Simulate DoS attacks)
+HTTP Directory Brute-Forcing 🔎 (Find hidden web directories)
+🖥️ Running PenTBox on macOS & Windows
+🛠️ macOS Setup (No Need for Kali Linux)
+Since macOS is UNIX-based, you do not need to install Kali Linux to run PenTBox.
+
+1️⃣ Check if Ruby is Installed
+Open Terminal (Command + Space, type Terminal, and hit Enter).
+Run: ruby -v
+If Ruby is not installed, install it using: brew install ruby
+
+🛠️ Windows Setup (Requires Kali Linux)
+Windows does not natively support PenTBox, so you need to install Kali Linux first.
+
+Options to run Kali Linux on Windows:
+
+Use a Virtual Machine (VM) – Install Kali Linux in VirtualBox/VMware
+Dual Boot – Install Kali alongside Windows
+Use Windows Subsystem for Linux (WSL) – Install Kali WSL (limited GUI support)
+Once Kali Linux is installed, follow the same steps as Linux/macOS.
+
+🚀 Installing & Running PenTBox
+1️⃣ Clone PenTBox Repository
+Run the following command in Terminal (macOS/Linux) or Kali Linux VM:
+
+git clone https://github.com/whitehatpanda/PenTBox.git
+cd PenTBox
+2️⃣ Run PenTBox
+
+ruby pentbox.rb
+3️⃣ Select the Honeypot Tool
+Choose 2 (Network Tools)
+Select Honeypot
+Configure the port (e.g., 80 for HTTP)
+Start monitoring attack logs
+📊 Screenshots
+Below are some screenshots of the implementation:
+
+Step	Screenshot
+Checking Ruby Version	
+
+![image](https://github.com/user-attachments/assets/6f906aa5-055f-4f5a-98d0-6997fd3022b9)
+
+Installing Ruby (macOS)	
+
+![image](https://github.com/user-attachments/assets/6ade4b8c-94d9-4363-9fa0-5762bc290c3f)
+
+Cloning PenTBox	
+
+![image](https://github.com/user-attachments/assets/b2a40d49-4ca9-417a-8e18-0146bea67343)
+
+Running PenTBox	
+
+![image](https://github.com/user-attachments/assets/b3083925-f519-4450-9aff-69870568ee2d)
+
+Honeypot Output	
+
+![Uploading image.png…]()
 
 
-Also since we are using mac OS we do not need to install install Kali Linux because mac is already a UNIX-based system (similar to Linux).
-If you are using windows you will have to install Kali-Linux.
-
-Follow these steps to install PenTbox
-Open Terminal (Command + Space, type Terminal, and press Enter).
-
- Type :- ruby -v
-If Ruby is installed, you’ll see a version number like Ruby 3.x.x.
-If not, install it using:
-
-brew install ruby
-![1](https://github.com/user-attachments/assets/41889be2-2352-4422-93b8-ed70196d42ea)
-
-![2](https://github.com/user-attachments/assets/9115bcd1-3d46-4b60-bae6-5f60afe23727)
-
-![3](https://github.com/user-attachments/assets/edd66594-6200-4a94-bfdc-c73ae19f8cfb)
-
-![4](https://github.com/user-attachments/assets/bc0bb37a-83e6-4a3c-ac9f-536b4a50e3cc)
-
-![5 Output](https://github.com/user-attachments/assets/0a361074-2f87-4253-abf4-c1ad910148b0)
-
-
+📌 Conclusion
+This project demonstrated the implementation of a honeypot using PenTBox in Kali Linux.
+✅ PenTBox provides an easy-to-use security suite for penetration testing.
+✅ The honeypot tool helps detect, log, and analyze unauthorized access attempts.
+✅ Kali Linux is required for Windows, but macOS can run PenTBox directly.
 
 
 
