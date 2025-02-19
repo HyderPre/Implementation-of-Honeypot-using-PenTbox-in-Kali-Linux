@@ -67,16 +67,17 @@ If Ruby is not installed, install it using:
 brew install ruby
 
 ```
+## 🛠️ Windows Setup (Requires Kali Linux)
+Windows **does not natively support PenTBox**, so you need to install **Kali Linux** first.  
 
-🛠️ Windows Setup (Requires Kali Linux)
-Windows does not natively support PenTBox, so you need to install Kali Linux first.
+### 1️⃣ Options to Run Kali Linux on Windows  
 
-Options to run Kali Linux on Windows:
+- **Use a Virtual Machine (VM)** – Install **Kali Linux in VirtualBox/VMware**.  
+- **Dual Boot** – Install **Kali alongside Windows**.  
+- **Use Windows Subsystem for Linux (WSL)** – Install **Kali WSL** (limited GUI support).  
 
-Use a Virtual Machine (VM) – Install Kali Linux in VirtualBox/VMware
-Dual Boot – Install Kali alongside Windows
-Use Windows Subsystem for Linux (WSL) – Install Kali WSL (limited GUI support)
-Once Kali Linux is installed, follow the same steps as Linux/macOS.
+Once **Kali Linux is installed**, follow the same steps as **Linux/macOS**.
+
 
 🚀 Installing & Running PenTBox
 1️⃣ Clone PenTBox Repository
