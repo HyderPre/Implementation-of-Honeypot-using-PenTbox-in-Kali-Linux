@@ -61,7 +61,12 @@ ruby -v
 ```
 
 
-If Ruby is not installed, install it using: brew install ruby
+If Ruby is not installed, install it using:
+
+```bash
+brew install ruby
+
+```
 
 🛠️ Windows Setup (Requires Kali Linux)
 Windows does not natively support PenTBox, so you need to install Kali Linux first.
