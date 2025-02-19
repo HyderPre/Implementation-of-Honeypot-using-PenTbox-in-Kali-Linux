@@ -53,9 +53,13 @@ Since **macOS is UNIX-based**, you **do not need to install Kali Linux** to run 
 
 ### 1️⃣ Check if Ruby is Installed
 Open **Terminal** (`Command + Space`, type **Terminal**, and hit Enter).  
+
 Run:
 ```bash
 ruby -v
+
+```
+
 
 If Ruby is not installed, install it using: brew install ruby
 
