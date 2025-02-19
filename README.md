@@ -104,10 +104,8 @@ ruby pentbox.rb
 - Configure the **port** (e.g., **80 for HTTP**)  
 - Start **monitoring attack logs**  
 
-
-📊 Screenshots
-Below are some screenshots of the implementation:
-
+## 📊 Screenshots  
+Below are some **screenshots of the implementation**: 
 Step	Screenshot
 Checking Ruby Version	
 
