@@ -79,20 +79,32 @@ Windows **does not natively support PenTBox**, so you need to install **Kali Lin
 Once **Kali Linux is installed**, follow the same steps as **Linux/macOS**.
 
 
-🚀 Installing & Running PenTBox
-1️⃣ Clone PenTBox Repository
-Run the following command in Terminal (macOS/Linux) or Kali Linux VM:
+## 🚀 Installing & Running PenTBox
 
+### 1️⃣ Clone PenTBox Repository  
+Run the following command in **Terminal (macOS/Linux) or Kali Linux VM**:  
+
+```bash
 git clone https://github.com/whitehatpanda/PenTBox.git
 cd PenTBox
+
+```
+
 2️⃣ Run PenTBox
 
+```bash
 ruby pentbox.rb
-3️⃣ Select the Honeypot Tool
-Choose 2 (Network Tools)
-Select Honeypot
-Configure the port (e.g., 80 for HTTP)
-Start monitoring attack logs
+
+```
+
+
+### 3️⃣ Select the Honeypot Tool  
+- Choose **2 (Network Tools)**  
+- Select **Honeypot**  
+- Configure the **port** (e.g., **80 for HTTP**)  
+- Start **monitoring attack logs**  
+
+
 📊 Screenshots
 Below are some screenshots of the implementation:
 
@@ -119,11 +131,12 @@ Honeypot Output
 
 
 
-📌 Conclusion
-This project demonstrated the implementation of a honeypot using PenTBox in Kali Linux.
-✅ PenTBox provides an easy-to-use security suite for penetration testing.
-✅ The honeypot tool helps detect, log, and analyze unauthorized access attempts.
-✅ Kali Linux is required for Windows, but macOS can run PenTBox directly.
+## 📌 Conclusion  
+This project demonstrated the **implementation of a honeypot using PenTBox in Kali Linux**.  
+
+✅ **PenTBox** provides an **easy-to-use security suite** for penetration testing.  
+✅ The **honeypot tool** helps **detect, log, and analyze unauthorized access attempts**.  
+✅ **Kali Linux is required for Windows**, but **macOS can run PenTBox directly**.  
 
 
 
