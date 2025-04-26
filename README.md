@@ -126,6 +126,17 @@ Honeypot Output
 
 ![image](https://github.com/user-attachments/assets/27443203-f429-46e0-9d3a-07f497019695)
 
+## 🚀 Implementation
+
+## 🚀 Implementation
+
+1. Download the implementation folder and navigate to it.
+2. Install the required dependencies from the `requirements.txt` file:
+
+   ```bash
+   pip install -r requirements.txt
+
+   ```
 
 
 ## 📌 Conclusion  
