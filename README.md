@@ -4,8 +4,7 @@
 
 ### Group Members:
 - **Hyder Presswala** - 16010122151  
-- **Ronak Rathod** - 16010122156  
-- **Vedant Rathi** - 16010122154  
+
 
 ---
 
