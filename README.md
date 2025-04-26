@@ -144,6 +144,12 @@ Honeypot Output
    python app.py
 
     ```
+4. Once the application is running, you will see a message in the terminal like:
+ ```csharp
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+
+```
+Open your web browser and type the IP address http://127.0.0.1:5000/ in the address bar to access the application.
 
 
 ## 📌 Conclusion  
