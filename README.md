@@ -151,6 +151,29 @@ Honeypot Output
 ```
 Open your web browser and type the IP address http://127.0.0.1:5000/ in the address bar to access the application.
 
+- When a user loads the page, they see **only one visible input field**:  
+  👉 **Name** field.
+
+- They fill it out and submit the form.
+
+- As long as the following conditions are met:
+  - 🚫 **No hidden fields** are touched
+  - 🚫 **The hidden checkbox** is left **untouched**
+  - 🚫 **The hidden textbox** remains **empty**
+  - ⏳ **The submission time is more than 3 seconds**
+
+✅ The form will be submitted successfully and shows:
+
+> ✅ Form submitted successfully!
+
+## ❌ Fast Submissions (Bot-like Behavior)
+
+- If a bot submits the form **immediately after loading the page** (under 3 seconds),
+- The backend detects it and **blocks the request**.
+
+Result:
+
+> ❌ Form blocked: Submitted too quickly
 
 ## 📌 Conclusion  
 This project demonstrated the **implementation of a honeypot using PenTBox in Kali Linux**.  
