@@ -1,4 +1,4 @@
-# Implementation of Honeypot using PenTBox in Kali Linux
+# Installation of Honeypot using PenTBox in Kali Linux
 
 ## 📌 Information Security IA_1
 
