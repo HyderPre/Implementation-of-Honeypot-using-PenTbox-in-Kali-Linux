@@ -192,6 +192,16 @@ There is an additional bot trap using **hidden fields** inside the form:
 
 ```
 
+Here if I change the display of both to display: block; then the fields will also be visible to us.
+Previously it was hidden.
+
+🚨 Behavior After Manipulation
+If you fill these hidden fields and submit the form:
+
+❌ Form blocked: Bot behavior detected
+
+This mechanism helps detect bots and users who try to tamper with the form structure.
+
 
 
 ## 📌 Conclusion  
