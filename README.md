@@ -162,11 +162,11 @@ Open your web browser and type the IP address http://127.0.0.1:5000/ in the addr
   - 🚫 **The hidden textbox** remains **empty**
   - ⏳ **The submission time is more than 3 seconds**
 
-✅ The form will be submitted successfully and shows:
+The form will be submitted successfully and shows:
 
 > ✅ Form submitted successfully!
 
-## ❌ Fast Submissions (Bot-like Behavior)
+## Fast Submissions (Bot-like Behavior)
 
 - If a bot submits the form **immediately after loading the page** (under 3 seconds),
 - The backend detects it and **blocks the request**.
