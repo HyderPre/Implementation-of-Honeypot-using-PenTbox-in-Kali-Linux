@@ -200,7 +200,9 @@ If you fill these hidden fields and submit the form:
 
 ❌ Form blocked: Bot behavior detected
 
-This mechanism helps detect bots and users who try to tamper with the form structure.
+This mechanism helps detect bots who try to tamper with the website.
+
+[Bots usually auto check all checkbox, So this way be can prevent bots from harming our webiste]
 
 
 
