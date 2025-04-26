@@ -175,6 +175,25 @@ Result:
 
 > ❌ Form blocked: Submitted too quickly
 
+---
+
+## 🎭 Manipulating Hidden Fields (Advanced Bot Detection)
+
+There is an additional bot trap using **hidden fields** inside the form:
+
+```html
+<div style="display: none;">
+    <label>Check me if you're a bot</label>
+    <input type="checkbox" name="bot_check">
+
+    <label>Bot textbox trap</label>
+    <input type="text" name="bot_textbox">
+</div>
+
+```
+
+
+
 ## 📌 Conclusion  
 This project demonstrated the **implementation of a honeypot using PenTBox in Kali Linux**.  
 
