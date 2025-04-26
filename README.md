@@ -214,4 +214,7 @@ This project demonstrated the **implementation of a honeypot using PenTBox in Ka
 ✅ **Kali Linux is required for Windows**, but **macOS can run PenTBox directly**.  
 
 
+#️⃣ Hashtags for SEO
+
+#KaliLinux #PenTBox #Honeypot #CyberSecurity #EthicalHacking #InformationSecurity #NetworkSecurity #PenetrationTesting #LinuxSecurity #CyberDefense #WhiteHatHacker #SecurityTools #KaliLinuxTools #OffensiveSecurity #HackingTools #SecurityTesting #DigitalForensics #RubyProgramming #BotDetection #WebSecurity #PythonSecurity #NetworkMonitoring #ITSecurity #HoneypotDeployment #LinuxHoneypot #OpenSourceSecurity #MacOSSecurity #WindowsSecurity #CyberThreats #ThreatDetection
 
