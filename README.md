@@ -128,7 +128,6 @@ Honeypot Output
 
 ## 🚀 Implementation
 
-## 🚀 Implementation
 
 1. Download the implementation folder and navigate to it.
 2. Install the required dependencies from the `requirements.txt` file:
@@ -137,6 +136,14 @@ Honeypot Output
    pip install -r requirements.txt
 
    ```
+### 🚀 Running the Application
+
+3. Run the application:
+
+   ```bash
+   python app.py
+
+    ```
 
 
 ## 📌 Conclusion  
