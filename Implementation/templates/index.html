@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Advanced Honeypot CAPTCHA</title>
+</head>
+<body>
+  <h2>Form with Honeypot, Timer, and Bot Traps</h2>
+
+  <form method="POST" action="/submit" onsubmit="return addStartTime();">
+    <label for="name">Name:</label>
+    <input type="text" name="name" required><br><br>
+
+    <!-- Dynamic honeypot field (generated on server) -->
+    <div style="position:absolute; left:-9999px; top:-9999px;">
+      <label>Leave this field empty</label>
+      <input type="text" name="{{ honeypot_name }}">
+    </div>
+    <input type="hidden" name="honeypot_name" value="{{ honeypot_name }}">
+
+    <!-- Static honeypot field -->
+    <div style="position:absolute; left:-9999px; top:-9999px;">
+      <label>Also leave this empty</label>
+      <input type="text" name="fake_field">
+    </div>
+
+    <!-- Trap checkbox -->
+    <div style="display: none;">
+      <label>Check me if you're a bot</label>
+      <input type="checkbox" name="trap_checkbox">
+    </div>
+
+    <!-- Trap textbox -->
+    <div style="display: none;">
+      <label>Bot textbox trap</label>
+      <input type="text" name="bot_textbox">
+    </div>
+
+    <!-- Time tracking -->
+    <input type="hidden" name="start_time" id="start_time">
+
+    <button type="submit">Submit</button>
+  </form>
+
+  {% if message %}
+    <p style="color: {{ 'green' if success else 'red' }}">{{ message }}</p>
+  {% endif %}
+
+  <script>
+    const formLoadTime = Date.now();
+    function addStartTime() {
+      const now = Date.now();
+      document.getElementById('start_time').value = now - formLoadTime;
+      return true;
+    }
+  </script>
+</body>
+</html>
